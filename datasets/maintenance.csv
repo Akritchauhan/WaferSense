@@ -1,6 +1,6 @@
 Machine_ID,Last_Service_Date,Downtime_Hours,Failure_Type,Maintenance_Cost,Engineer_Name
-MACH_001,2026-03-20,9.965429868602328,Calibration Drift,4008.609501227462,David Smith
-MACH_002,2026-03-20,6.458327528535912,Calibration Drift,2566.6200138464023,David Smith
-MACH_003,2026-03-23,3.428668179219408,None,753.8521056219512,Elena Rossi
-MACH_004,2026-03-29,4.123391106782762,Calibration Drift,1325.3202943404522,Elena Rossi
-MACH_005,2026-04-06,2.0706630521971743,Calibration Drift,2861.485971162751,Marcus Rodriguez
+MACH_001,2026-03-20,9.97,Calibration Drift,4008.61,David Smith
+MACH_002,2026-03-20,6.46,Calibration Drift,2566.62,David Smith
+MACH_003,2026-03-23,3.43,None,753.85,Elena Rossi
+MACH_004,2026-03-29,4.12,Calibration Drift,1325.32,Elena Rossi
+MACH_005,2026-04-06,2.07,Calibration Drift,2861.49,Marcus Rodriguez
