@@ -6,7 +6,7 @@ import sqlite3
 import os
 
 # Set professional style
-plt.style.use('dark_background')
+plt.style.use('seaborn-v0_8-whitegrid')
 sns.set_palette("viridis")
 
 def run_analytics():
@@ -44,7 +44,7 @@ def run_analytics():
 
     # 4. Chamber Pressure Analysis (Box Plot)
     plt.figure(figsize=(12, 6))
-    sns.boxplot(data=df, x='Machine_ID', y='Chamber_Pressure', palette='magma')
+    sns.boxplot(data=df, x='Machine_ID', y='Chamber_Pressure', hue='Machine_ID', palette='magma', legend=False)
     plt.title('Chamber Pressure Distribution Across Machines', fontsize=16)
     plt.savefig('screenshots/pressure_distribution.png', dpi=300)
     plt.close()
@@ -58,7 +58,7 @@ def run_analytics():
 
     # 6. Defect Type Distribution
     plt.figure(figsize=(10, 6))
-    sns.countplot(data=df[df['Defect_Type'] != 'None'], x='Defect_Type', palette='viridis')
+    sns.countplot(data=df[df['Defect_Type'] != 'None'], x='Defect_Type', hue='Defect_Type', palette='viridis', legend=False)
     plt.title('Distribution of Defect Types', fontsize=16)
     plt.xticks(rotation=30)
     plt.savefig('screenshots/defect_distribution.png', dpi=300)
