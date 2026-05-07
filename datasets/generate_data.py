@@ -7,10 +7,10 @@ import os
 np.random.seed(42)
 
 # Configuration
-NUM_WAFERS = 10500
-NUM_TELEMETRY = 52000
+NUM_WAFERS = 5500
+NUM_TELEMETRY = 25000
 NUM_MACHINES = 5
-NUM_BATCHES = 100
+NUM_BATCHES = 50
 
 def generate_datasets():
     print("Generating Semiconductor Manufacturing Datasets...")
